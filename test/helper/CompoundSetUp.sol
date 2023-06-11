@@ -2,6 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
+import "forge-std/console.sol";
 import "./UToken";
 import "lib/compound-protocol/contracts/WhitePaperInterestRateModel.sol";
 import "lib/compound-protocol/contracts/CErc20Delegate.sol";
